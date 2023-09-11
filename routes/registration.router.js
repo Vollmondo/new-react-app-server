@@ -7,7 +7,7 @@ const client = new MongoClient(uri, { useUnifiedTopology: true });
 const routerRegister = express.Router();
 
 routerRegister.post('/users/register', async (req, res) => {
-  const { username, password } = req.body;
+  const { lat, long, city, street, number, zipcode, email, username, password, avatar, firstname, lastname, patronymic, phone, birthdate } = req.body;
 
   try {
     await client.connect();
@@ -17,7 +17,18 @@ routerRegister.post('/users/register', async (req, res) => {
     if (existingUser) {
       res.status(409).send('Пользователь с таким именем уже существует');
     } else {
-        const newUser = { username, password };
+        const newUser = {
+          address: { geolocation: { lat, long }, city, street, number, zipcode },
+          email,
+          username,
+          password,
+          avatar,
+          name: { firstname, lastname, patronymic },
+          phone,
+          __v: 0,
+          role: 'user',
+          birthdate
+        };;
         const result = await collection.insertOne(newUser);
         const registeredUser = { ...newUser, _id: result.insertedId };
         res.json(registeredUser);
