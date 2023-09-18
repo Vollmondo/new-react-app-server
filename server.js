@@ -6,8 +6,9 @@ const routerUsers = require('./routes/users.routes');
 const routerLogin = require('./routes/login.routes');
 const routerRegister = require('./routes/registration.router');
 const routerUserProfile = require('./routes/profile.routes');
-const routerArticles = require('./routes/articles.routes')
-const routerProducts = require('./routes/products.routes')
+const routerArticles = require('./routes/articles.routes');
+const routerProducts = require('./routes/products.routes');
+const routerProdChars = require('./routes/prodchars.routes');
 
 const app = express();
 const port = 5000;
@@ -18,13 +19,15 @@ module.exports = client;
 
 app.use(express.json());
 app.use(cors());
+app.use(express.urlencoded({ extended: true }));
 app.use(routerCategories);
 app.use(routerUsers);
-app.use(routerLogin)
-app.use(routerRegister)
-app.use(routerUserProfile)
-app.use(routerArticles)
-app.use(routerProducts)
+app.use(routerLogin);
+app.use(routerRegister);
+app.use(routerUserProfile);
+app.use(routerArticles);
+app.use(routerProducts);
+app.use(routerProdChars);
 
 app.listen(port, () => {
   console.log(`Сервер запущен на порту ${port}`);
