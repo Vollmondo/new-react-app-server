@@ -10,6 +10,7 @@ const routerArticles = require('./routes/articles.routes');
 const routerProducts = require('./routes/products.routes');
 const routerProdChars = require('./routes/prodchars.routes');
 const routerCheckout = require('./routes/checkout.routes');
+const routerFavProducts = require('./routes/favProducts.routes')
 
 
 const app = express();
@@ -31,6 +32,7 @@ app.use(routerArticles);
 app.use(routerProducts);
 app.use(routerProdChars);
 app.use(routerCheckout);
+app.use(routerFavProducts)
 
 app.listen(port, () => {
   console.log(`Сервер запущен на порту ${port}`);
