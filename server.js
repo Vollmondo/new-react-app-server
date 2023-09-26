@@ -11,6 +11,7 @@ const routerProducts = require('./routes/products.routes');
 const routerProdChars = require('./routes/prodchars.routes');
 const routerCheckout = require('./routes/checkout.routes');
 const routerFavProducts = require('./routes/favProducts.routes')
+const routerSearch = require('./routes/search.routes')
 
 
 const app = express();
@@ -33,6 +34,7 @@ app.use(routerProducts);
 app.use(routerProdChars);
 app.use(routerCheckout);
 app.use(routerFavProducts)
+app.use(routerSearch)
 
 app.listen(port, () => {
   console.log(`Сервер запущен на порту ${port}`);
