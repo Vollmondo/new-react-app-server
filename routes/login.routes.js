@@ -13,7 +13,7 @@ routerLogin.post('/users/login', async (req, res) => {
       await client.connect();
       const collection = client.db('react-app').collection('users');
       const user = await collection.findOne({ username, password });
-  
+      console.log(user)
       if (user) {
         res.json(user);
       } else {
