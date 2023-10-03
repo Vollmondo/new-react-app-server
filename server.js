@@ -13,7 +13,6 @@ const routerCheckout = require('./routes/checkout.routes');
 const routerFavProducts = require('./routes/favProducts.routes')
 const routerSearch = require('./routes/search.routes')
 
-
 const app = express();
 const port = 5000;
 
