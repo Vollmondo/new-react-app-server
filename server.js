@@ -10,8 +10,9 @@ const routerArticles = require('./routes/articles.routes');
 const routerProducts = require('./routes/products.routes');
 const routerProdChars = require('./routes/prodchars.routes');
 const routerCheckout = require('./routes/checkout.routes');
-const routerFavProducts = require('./routes/favProducts.routes')
-const routerSearch = require('./routes/search.routes')
+const routerFavProducts = require('./routes/favProducts.routes');
+const routerSearch = require('./routes/search.routes');
+const routerOrders = require('./routes/orders.routes');
 
 const app = express();
 const port = 5000;
@@ -32,8 +33,9 @@ app.use(routerArticles);
 app.use(routerProducts);
 app.use(routerProdChars);
 app.use(routerCheckout);
-app.use(routerFavProducts)
-app.use(routerSearch)
+app.use(routerFavProducts);
+app.use(routerSearch);
+app.use(routerOrders);
 
 app.listen(port, () => {
   console.log(`Сервер запущен на порту ${port}`);
