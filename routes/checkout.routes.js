@@ -44,7 +44,7 @@ routerCheckout.post('/updatebalance/:id', async (req, res) => {
     const collection = client.db('react-app').collection('users');
     
     const updateData = {
-      credit: data.credit,
+      credit: data.credit.toFixed(2),
     };
     
     const result = await collection.updateOne(
