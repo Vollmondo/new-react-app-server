@@ -1,5 +1,6 @@
 const express = require('express');
 const { MongoClient } = require('mongodb');
+const { ObjectId } = require('mongodb');
 
 const uri = 'mongodb://localhost:27017';
 const client = new MongoClient(uri, { useUnifiedTopology: true });
@@ -31,6 +32,38 @@ routerCheckout.post('/checkout-error.json', (req, res) => {
     error: 'Произошла ошибка при оформлении заказа'
   };
   res.json(response);
+});
+
+routerCheckout.post('/updatebalance/:id', async (req, res) => {
+  const { id } = req.params;
+  const data = req.body;
+
+  try {
+    console.log('Received data:', data);
+    await client.connect();
+    const collection = client.db('react-app').collection('users');
+    
+    const updateData = {
+      credit: data.credit,
+    };
+    
+    const result = await collection.updateOne(
+      { _id: new ObjectId(id) },
+      { $set: updateData}
+    );
+
+    console.log('Update result:', result);
+    if (result.modifiedCount === 1) {
+      res.sendStatus(200);
+    } else {
+      res.status(404).send('Пользователь не найден');
+    }
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Ошибка выполнения запроса' });
+  } finally {
+    await client.close();
+  }
 });
 
 module.exports = routerCheckout;

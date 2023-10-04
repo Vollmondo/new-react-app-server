@@ -51,7 +51,7 @@ routerUserProfile.post('/saveUser/:id', async (req, res) => {
       avatar: data.avatar,
       name: data.name,
       phone: data.phone,
-      birthdate: data.birthdate
+      birthdate: data.birthdate,
     };
     
     if (data.password !== '') {
