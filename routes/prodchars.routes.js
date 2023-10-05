@@ -32,5 +32,16 @@ routerProdChars.get('/characteristics', async (req, res) => {
 }
 });
 
+routerProdChars.get('/prodchars', async (req, res) => {
+  try {
+    const db = client.db('react-app');
+    const collection = db.collection('Characteristics');
+    const prodChars = await collection.find().toArray();
+    res.json(prodChars);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});
 
 module.exports = routerProdChars;
