@@ -6,6 +6,18 @@ const client = new MongoClient(uri, { useUnifiedTopology: true });
 
 const routerOrders = express.Router();
 
+routerOrders.get('/orders', async (req, res) => {
+  try {
+    const database = client.db('react-app');
+    const collection = database.collection('orders');
+    const data = await collection.find().toArray();
+    res.json(data);
+  } catch (error) {
+    console.error('Ошибка выполнения запроса:', error);
+    res.status(500).json({ error: 'Ошибка выполнения запроса' });
+  }
+});
+
 routerOrders.get('/userProfile/:userId/orders', async (req, res) => {
   try {
     await client.connect();
