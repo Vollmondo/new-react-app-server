@@ -1,0 +1,166 @@
+[{
+  "_id": {
+    "$oid": "652cdfd6e558445bfaab928f"
+  },
+  "customer": "64f0733088e42d1bfd471ad2",
+  "items": [
+    {
+      "id": "650044a404f1344086586dfb",
+      "category": "ювелирные изделия",
+      "quantity": 1,
+      "price": 168
+    },
+    {
+      "id": "650044a404f1344086586dff",
+      "category": "электроника",
+      "quantity": 1,
+      "price": 109
+    }
+  ],
+  "timestamp": "2023-10-16T07:01:41.680Z",
+  "totalprice": 277,
+  "status": "В обработке"
+},
+{
+  "_id": {
+    "$oid": "652ce002e558445bfaab9290"
+  },
+  "customer": "64f0733088e42d1bfd471ad2",
+  "items": [
+    {
+      "id": "650044a404f1344086586e03",
+      "category": "электроника",
+      "quantity": 1,
+      "price": 999.99
+    }
+  ],
+  "timestamp": "2023-10-16T07:02:25.662Z",
+  "totalprice": 999.99,
+  "status": "В обработке"
+},
+{
+  "_id": {
+    "$oid": "652ce0d3e558445bfaab9291"
+  },
+  "customer": "64f0733088e42d1bfd471ad2",
+  "items": [
+    {
+      "id": "650044a404f1344086586e02",
+      "category": "электроника",
+      "quantity": 3,
+      "price": 599
+    }
+  ],
+  "timestamp": "2023-10-16T07:05:54.892Z",
+  "totalprice": 1797,
+  "status": "В обработке"
+},
+{
+  "_id": {
+    "$oid": "652ce386e558445bfaab9292"
+  },
+  "customer": "64f0733088e42d1bfd471ad2",
+  "items": [
+    {
+      "id": "650044a404f1344086586e00",
+      "category": "электроника",
+      "quantity": 1,
+      "price": 109
+    },
+    {
+      "id": "650044a404f1344086586e03",
+      "category": "электроника",
+      "quantity": 1,
+      "price": 999.99
+    }
+  ],
+  "timestamp": "2023-10-16T07:17:26.320Z",
+  "totalprice": 1108.99,
+  "status": "В обработке"
+},
+{
+  "_id": {
+    "$oid": "652d0b01e558445bfaab9293"
+  },
+  "customer": "64f0733088e42d1bfd471ad2",
+  "items": [
+    {
+      "id": "650044a404f1344086586df9",
+      "category": "мужская одежда",
+      "quantity": 2,
+      "price": 15.99
+    },
+    {
+      "id": "650044a404f1344086586e04",
+      "category": "женская одежда",
+      "quantity": 2,
+      "price": 56.99
+    }
+  ],
+  "timestamp": "2023-10-16T10:05:53.063Z",
+  "totalprice": 145.96,
+  "status": "В обработке"
+},
+{
+  "_id": {
+    "$oid": "652d1c29e558445bfaab9294"
+  },
+  "customer": "64f0733088e42d1bfd471ad2",
+  "items": [
+    {
+      "id": "650044a404f1344086586df7",
+      "category": "мужская одежда",
+      "quantity": 1,
+      "price": 22.3
+    },
+    {
+      "id": "650044a404f1344086586dfb",
+      "category": "ювелирные изделия",
+      "quantity": 1,
+      "price": 168
+    },
+    {
+      "id": "650044a404f1344086586e00",
+      "category": "электроника",
+      "quantity": 1,
+      "price": 109
+    }
+  ],
+  "timestamp": "2023-10-16T11:19:05.308Z",
+  "totalprice": 299.3,
+  "status": "В обработке"
+},
+{
+  "_id": {
+    "$oid": "654df622f4a9dd6f2fa77f99"
+  },
+  "customer": "64f0733088e42d1bfd471ad2",
+  "items": [
+    {
+      "id": "650044a404f1344086586df6",
+      "category": "мужская одежда",
+      "quantity": 2,
+      "price": 109.95
+    }
+  ],
+  "timestamp": "2023-11-10T09:21:38.226Z",
+  "totalprice": 219.9,
+  "status": "В обработке"
+},
+{
+  "_id": {
+    "$oid": "654df9b1f4a9dd6f2fa77f9a"
+  },
+  "customer": "64f0733088e42d1bfd471ad2",
+  "items": [
+    {
+      "id": "650044a404f1344086586df6",
+      "category": "мужская одежда",
+      "quantity": 1,
+      "price": 109.95
+    }
+  ],
+  "timestamp": "2023-11-10T09:36:48.578Z",
+  "totalprice": 109.95,
+  "status": "В обработке"
+}]

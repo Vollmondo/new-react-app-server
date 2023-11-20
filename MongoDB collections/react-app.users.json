@@ -1,0 +1,93 @@
+[{
+  "_id": {
+    "$oid": "64f0733088e42d1bfd471ad2"
+  },
+  "address": {
+    "geolocation": {
+      "lat": null,
+      "long": null
+    },
+    "city": "XXX",
+    "street": "string",
+    "number": 5,
+    "zipcode": "5151"
+  },
+  "id": 2,
+  "email": "123123@123.123",
+  "username": "123123",
+  "password": "111111",
+  "avatar": "",
+  "name": {
+    "firstname": "string",
+    "lastname": "dfsf323rgbnesrgd",
+    "patronymic": "string"
+  },
+  "phone": "string",
+  "__v": 2,
+  "role": "admin",
+  "birthdate": "1611551",
+  "fav": [
+    "650044a404f1344086586dfb",
+    "650044a404f1344086586df7",
+    "650044a404f1344086586df8"
+  ],
+  "credit": "19852.91"
+},
+{
+  "_id": {
+    "$oid": "6513bd27612b5cc2265f2481"
+  },
+  "address": {
+    "geolocation": {
+      "lat": "55.2599552",
+      "long": "61.4334464"
+    },
+    "city": null,
+    "street": null,
+    "number": null,
+    "zipcode": null
+  },
+  "email": "qaz@qaz.qaz",
+  "username": "qazzz",
+  "password": "qqq",
+  "avatar": null,
+  "name": {
+    "firstname": null,
+    "lastname": null,
+    "patronymic": null
+  },
+  "phone": null,
+  "__v": 0,
+  "role": "user",
+  "birthdate": null,
+  "credit": "0.00"
+},
+{
+  "_id": {
+    "$oid": "6513bdd9612b5cc2265f2482"
+  },
+  "address": {
+    "geolocation": {
+      "lat": "55.2599552",
+      "long": "61.4334464"
+    },
+    "city": null,
+    "street": null,
+    "number": null,
+    "zipcode": null
+  },
+  "email": "aaa@aaa.aaa",
+  "username": "aaa",
+  "password": "aaa",
+  "avatar": null,
+  "name": {
+    "firstname": null,
+    "lastname": null,
+    "patronymic": null
+  },
+  "phone": null,
+  "__v": 0,
+  "role": "user",
+  "birthdate": null,
+  "credit": "0.00"
+}]
