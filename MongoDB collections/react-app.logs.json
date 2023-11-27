@@ -1,0 +1,3413 @@
+[{
+  "_id": {
+    "$oid": "656437b3edc9418c785cab14"
+  },
+  "username": "123123",
+  "password": "111111",
+  "entryTime": {
+    "$date": "2023-11-27T06:31:15.606Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656437deedc9418c785cab15"
+  },
+  "username": "123123",
+  "password": "111111",
+  "entryTime": {
+    "$date": "2023-11-27T06:31:58.503Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564395eedc9418c785cab16"
+  },
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 5,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 2,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [],
+  "entryTime": {
+    "$date": "2023-11-27T06:38:22.196Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564395eedc9418c785cab17"
+  },
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 5,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 2,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [],
+  "entryTime": {
+    "$date": "2023-11-27T06:38:22.201Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564395eedc9418c785cab18"
+  },
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 5,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 2,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [
+    {
+      "_id": "652cdfd6e558445bfaab928f",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586dff",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T07:01:41.680Z",
+      "totalprice": 277,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce002e558445bfaab9290",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:02:25.662Z",
+      "totalprice": 999.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce0d3e558445bfaab9291",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e02",
+          "category": "электроника",
+          "quantity": 3,
+          "price": 599
+        }
+      ],
+      "timestamp": "2023-10-16T07:05:54.892Z",
+      "totalprice": 1797,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce386e558445bfaab9292",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        },
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:17:26.320Z",
+      "totalprice": 1108.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d0b01e558445bfaab9293",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df9",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 15.99
+        },
+        {
+          "id": "650044a404f1344086586e04",
+          "category": "женская одежда",
+          "quantity": 2,
+          "price": 56.99
+        }
+      ],
+      "timestamp": "2023-10-16T10:05:53.063Z",
+      "totalprice": 145.96,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d1c29e558445bfaab9294",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df7",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 22.3
+        },
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T11:19:05.308Z",
+      "totalprice": 299.3,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df622f4a9dd6f2fa77f99",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:21:38.226Z",
+      "totalprice": 219.9,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df9b1f4a9dd6f2fa77f9a",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:36:48.578Z",
+      "totalprice": 109.95,
+      "status": "В обработке"
+    }
+  ],
+  "entryTime": {
+    "$date": "2023-11-27T06:38:22.282Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564395eedc9418c785cab19"
+  },
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 5,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 2,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [
+    {
+      "_id": "652cdfd6e558445bfaab928f",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586dff",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T07:01:41.680Z",
+      "totalprice": 277,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce002e558445bfaab9290",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:02:25.662Z",
+      "totalprice": 999.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce0d3e558445bfaab9291",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e02",
+          "category": "электроника",
+          "quantity": 3,
+          "price": 599
+        }
+      ],
+      "timestamp": "2023-10-16T07:05:54.892Z",
+      "totalprice": 1797,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce386e558445bfaab9292",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        },
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:17:26.320Z",
+      "totalprice": 1108.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d0b01e558445bfaab9293",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df9",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 15.99
+        },
+        {
+          "id": "650044a404f1344086586e04",
+          "category": "женская одежда",
+          "quantity": 2,
+          "price": 56.99
+        }
+      ],
+      "timestamp": "2023-10-16T10:05:53.063Z",
+      "totalprice": 145.96,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d1c29e558445bfaab9294",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df7",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 22.3
+        },
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T11:19:05.308Z",
+      "totalprice": 299.3,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df622f4a9dd6f2fa77f99",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:21:38.226Z",
+      "totalprice": 219.9,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df9b1f4a9dd6f2fa77f9a",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:36:48.578Z",
+      "totalprice": 109.95,
+      "status": "В обработке"
+    }
+  ],
+  "entryTime": {
+    "$date": "2023-11-27T06:38:22.362Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643a5dedc9418c785cab1a"
+  },
+  "user": {
+    "user": {
+      "_id": "64f0733088e42d1bfd471ad2",
+      "address": {
+        "geolocation": {
+          "lat": null,
+          "long": null
+        },
+        "city": "XXX",
+        "street": "string",
+        "number": 5,
+        "zipcode": "5151"
+      },
+      "id": 2,
+      "email": "123123@123.123",
+      "username": "123123",
+      "password": "111111",
+      "avatar": "../img/149452.png",
+      "name": {
+        "firstname": "string",
+        "lastname": "dfsf323rgbnesrgd",
+        "patronymic": "string"
+      },
+      "phone": "string",
+      "__v": 2,
+      "role": "admin",
+      "birthdate": "1611551",
+      "fav": [
+        "650044a404f1344086586dfb",
+        "650044a404f1344086586df7",
+        "650044a404f1344086586df8"
+      ],
+      "credit": "19852.91"
+    }
+  },
+  "entryTime": {
+    "$date": "2023-11-27T06:42:37.023Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643b17edc9418c785cab1b"
+  },
+  "action": "checkOrders",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "../img/149452.png",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [],
+  "entryTime": {
+    "$date": "2023-11-27T06:45:43.453Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643b17edc9418c785cab1c"
+  },
+  "action": "checkOrders",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "../img/149452.png",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [],
+  "entryTime": {
+    "$date": "2023-11-27T06:45:43.462Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643b17edc9418c785cab1d"
+  },
+  "action": "checkOrders",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "../img/149452.png",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [
+    {
+      "_id": "652cdfd6e558445bfaab928f",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586dff",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T07:01:41.680Z",
+      "totalprice": 277,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce002e558445bfaab9290",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:02:25.662Z",
+      "totalprice": 999.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce0d3e558445bfaab9291",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e02",
+          "category": "электроника",
+          "quantity": 3,
+          "price": 599
+        }
+      ],
+      "timestamp": "2023-10-16T07:05:54.892Z",
+      "totalprice": 1797,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce386e558445bfaab9292",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        },
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:17:26.320Z",
+      "totalprice": 1108.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d0b01e558445bfaab9293",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df9",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 15.99
+        },
+        {
+          "id": "650044a404f1344086586e04",
+          "category": "женская одежда",
+          "quantity": 2,
+          "price": 56.99
+        }
+      ],
+      "timestamp": "2023-10-16T10:05:53.063Z",
+      "totalprice": 145.96,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d1c29e558445bfaab9294",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df7",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 22.3
+        },
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T11:19:05.308Z",
+      "totalprice": 299.3,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df622f4a9dd6f2fa77f99",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:21:38.226Z",
+      "totalprice": 219.9,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df9b1f4a9dd6f2fa77f9a",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:36:48.578Z",
+      "totalprice": 109.95,
+      "status": "В обработке"
+    }
+  ],
+  "entryTime": {
+    "$date": "2023-11-27T06:45:43.501Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643b17edc9418c785cab1e"
+  },
+  "action": "checkOrders",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "../img/149452.png",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [
+    {
+      "_id": "652cdfd6e558445bfaab928f",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586dff",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T07:01:41.680Z",
+      "totalprice": 277,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce002e558445bfaab9290",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:02:25.662Z",
+      "totalprice": 999.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce0d3e558445bfaab9291",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e02",
+          "category": "электроника",
+          "quantity": 3,
+          "price": 599
+        }
+      ],
+      "timestamp": "2023-10-16T07:05:54.892Z",
+      "totalprice": 1797,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce386e558445bfaab9292",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        },
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:17:26.320Z",
+      "totalprice": 1108.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d0b01e558445bfaab9293",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df9",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 15.99
+        },
+        {
+          "id": "650044a404f1344086586e04",
+          "category": "женская одежда",
+          "quantity": 2,
+          "price": 56.99
+        }
+      ],
+      "timestamp": "2023-10-16T10:05:53.063Z",
+      "totalprice": 145.96,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d1c29e558445bfaab9294",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df7",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 22.3
+        },
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T11:19:05.308Z",
+      "totalprice": 299.3,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df622f4a9dd6f2fa77f99",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:21:38.226Z",
+      "totalprice": 219.9,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df9b1f4a9dd6f2fa77f9a",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:36:48.578Z",
+      "totalprice": 109.95,
+      "status": "В обработке"
+    }
+  ],
+  "entryTime": {
+    "$date": "2023-11-27T06:45:43.564Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643b55edc9418c785cab1f"
+  },
+  "action": "checkOrders",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "../img/149452.png",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [
+    {
+      "_id": "652cdfd6e558445bfaab928f",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586dff",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T07:01:41.680Z",
+      "totalprice": 277,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce002e558445bfaab9290",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:02:25.662Z",
+      "totalprice": 999.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce0d3e558445bfaab9291",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e02",
+          "category": "электроника",
+          "quantity": 3,
+          "price": 599
+        }
+      ],
+      "timestamp": "2023-10-16T07:05:54.892Z",
+      "totalprice": 1797,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce386e558445bfaab9292",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        },
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:17:26.320Z",
+      "totalprice": 1108.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d0b01e558445bfaab9293",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df9",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 15.99
+        },
+        {
+          "id": "650044a404f1344086586e04",
+          "category": "женская одежда",
+          "quantity": 2,
+          "price": 56.99
+        }
+      ],
+      "timestamp": "2023-10-16T10:05:53.063Z",
+      "totalprice": 145.96,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d1c29e558445bfaab9294",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df7",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 22.3
+        },
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T11:19:05.308Z",
+      "totalprice": 299.3,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df622f4a9dd6f2fa77f99",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:21:38.226Z",
+      "totalprice": 219.9,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df9b1f4a9dd6f2fa77f9a",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:36:48.578Z",
+      "totalprice": 109.95,
+      "status": "В обработке"
+    }
+  ],
+  "entryTime": {
+    "$date": "2023-11-27T06:46:45.164Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643b55edc9418c785cab20"
+  },
+  "action": "checkOrders",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "../img/149452.png",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [
+    {
+      "_id": "652cdfd6e558445bfaab928f",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586dff",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T07:01:41.680Z",
+      "totalprice": 277,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce002e558445bfaab9290",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:02:25.662Z",
+      "totalprice": 999.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce0d3e558445bfaab9291",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e02",
+          "category": "электроника",
+          "quantity": 3,
+          "price": 599
+        }
+      ],
+      "timestamp": "2023-10-16T07:05:54.892Z",
+      "totalprice": 1797,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce386e558445bfaab9292",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        },
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:17:26.320Z",
+      "totalprice": 1108.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d0b01e558445bfaab9293",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df9",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 15.99
+        },
+        {
+          "id": "650044a404f1344086586e04",
+          "category": "женская одежда",
+          "quantity": 2,
+          "price": 56.99
+        }
+      ],
+      "timestamp": "2023-10-16T10:05:53.063Z",
+      "totalprice": 145.96,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d1c29e558445bfaab9294",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df7",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 22.3
+        },
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T11:19:05.308Z",
+      "totalprice": 299.3,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df622f4a9dd6f2fa77f99",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:21:38.226Z",
+      "totalprice": 219.9,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df9b1f4a9dd6f2fa77f9a",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:36:48.578Z",
+      "totalprice": 109.95,
+      "status": "В обработке"
+    }
+  ],
+  "entryTime": {
+    "$date": "2023-11-27T06:46:45.184Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643b59edc9418c785cab21"
+  },
+  "action": "checkOrders",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "../img/149452.png",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [],
+  "entryTime": {
+    "$date": "2023-11-27T06:46:49.245Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643b59edc9418c785cab22"
+  },
+  "action": "checkOrders",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "../img/149452.png",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [
+    {
+      "_id": "652cdfd6e558445bfaab928f",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586dff",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T07:01:41.680Z",
+      "totalprice": 277,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce002e558445bfaab9290",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:02:25.662Z",
+      "totalprice": 999.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce0d3e558445bfaab9291",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e02",
+          "category": "электроника",
+          "quantity": 3,
+          "price": 599
+        }
+      ],
+      "timestamp": "2023-10-16T07:05:54.892Z",
+      "totalprice": 1797,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce386e558445bfaab9292",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        },
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:17:26.320Z",
+      "totalprice": 1108.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d0b01e558445bfaab9293",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df9",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 15.99
+        },
+        {
+          "id": "650044a404f1344086586e04",
+          "category": "женская одежда",
+          "quantity": 2,
+          "price": 56.99
+        }
+      ],
+      "timestamp": "2023-10-16T10:05:53.063Z",
+      "totalprice": 145.96,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d1c29e558445bfaab9294",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df7",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 22.3
+        },
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T11:19:05.308Z",
+      "totalprice": 299.3,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df622f4a9dd6f2fa77f99",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:21:38.226Z",
+      "totalprice": 219.9,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df9b1f4a9dd6f2fa77f9a",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:36:48.578Z",
+      "totalprice": 109.95,
+      "status": "В обработке"
+    }
+  ],
+  "entryTime": {
+    "$date": "2023-11-27T06:46:49.256Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643b62edc9418c785cab23"
+  },
+  "action": "checkOrders",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "../img/149452.png",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [],
+  "entryTime": {
+    "$date": "2023-11-27T06:46:58.688Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643b62edc9418c785cab24"
+  },
+  "action": "checkOrders",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "../img/149452.png",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "orders": [
+    {
+      "_id": "652cdfd6e558445bfaab928f",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586dff",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T07:01:41.680Z",
+      "totalprice": 277,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce002e558445bfaab9290",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:02:25.662Z",
+      "totalprice": 999.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce0d3e558445bfaab9291",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e02",
+          "category": "электроника",
+          "quantity": 3,
+          "price": 599
+        }
+      ],
+      "timestamp": "2023-10-16T07:05:54.892Z",
+      "totalprice": 1797,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce386e558445bfaab9292",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        },
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:17:26.320Z",
+      "totalprice": 1108.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d0b01e558445bfaab9293",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df9",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 15.99
+        },
+        {
+          "id": "650044a404f1344086586e04",
+          "category": "женская одежда",
+          "quantity": 2,
+          "price": 56.99
+        }
+      ],
+      "timestamp": "2023-10-16T10:05:53.063Z",
+      "totalprice": 145.96,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d1c29e558445bfaab9294",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df7",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 22.3
+        },
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T11:19:05.308Z",
+      "totalprice": 299.3,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df622f4a9dd6f2fa77f99",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:21:38.226Z",
+      "totalprice": 219.9,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df9b1f4a9dd6f2fa77f9a",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:36:48.578Z",
+      "totalprice": 109.95,
+      "status": "В обработке"
+    }
+  ],
+  "entryTime": {
+    "$date": "2023-11-27T06:46:58.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643c39edc9418c785cab25"
+  },
+  "action": "login",
+  "username": "213122132",
+  "message": "Неверное имя пользователя или пароль",
+  "entryTime": {
+    "$date": "2023-11-27T06:50:33.516Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643d68edc9418c785cab26"
+  },
+  "action": "login",
+  "username": "123123",
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T06:55:36.501Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643d6cedc9418c785cab27"
+  },
+  "type": "editProfile",
+  "user": {
+    "user": {
+      "_id": "64f0733088e42d1bfd471ad2",
+      "address": {
+        "geolocation": {
+          "lat": null,
+          "long": null
+        },
+        "city": "XXX",
+        "street": "string",
+        "number": 51,
+        "zipcode": "5151"
+      },
+      "id": 2,
+      "email": "123123@123.123",
+      "username": "123123",
+      "password": "111111",
+      "avatar": "",
+      "name": {
+        "firstname": "string",
+        "lastname": "dfsf323rgbnesrgd",
+        "patronymic": "string"
+      },
+      "phone": "string",
+      "__v": 3,
+      "role": "admin",
+      "birthdate": "1611551",
+      "fav": [
+        "650044a404f1344086586dfb",
+        "650044a404f1344086586df7",
+        "650044a404f1344086586df8"
+      ],
+      "credit": "19852.91"
+    }
+  },
+  "message": "Вышел из профиля",
+  "entryTime": {
+    "$date": "2023-11-27T06:55:40.271Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65643da6edc9418c785cab28"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T06:56:38.561Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65644d4cedc9418c785cab29"
+  },
+  "action": "addCoins",
+  "message": "Баланс пополнен",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [
+      "650044a404f1344086586dfb",
+      "650044a404f1344086586df7",
+      "650044a404f1344086586df8"
+    ],
+    "credit": "19852.91"
+  },
+  "entryTime": {
+    "$date": "2023-11-27T08:03:24.407Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65644e5dedc9418c785cab2a"
+  },
+  "action": "checkOut",
+  "message": "Заказ успешно размещен",
+  "user": {
+    "credit": 19863.91,
+    "_id": "64f0733088e42d1bfd471ad2"
+  },
+  "entryTime": {
+    "$date": "2023-11-27T08:07:57.566Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65645003edc9418c785cab2c"
+  },
+  "action": "addFav",
+  "message": "Товар [object Object] добавлен в избранное",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:14:59.862Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65645006edc9418c785cab2d"
+  },
+  "action": "removeFav",
+  "message": "Товар [object Object] удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:15:02.445Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656450ba6f0ea896a7d033f2"
+  },
+  "action": "addFav",
+  "message": "Товар [object Object] добавлен в избранное",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:18:02.544Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656450bc6f0ea896a7d033f3"
+  },
+  "action": "removeFav",
+  "message": "Товар [object Object] удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:18:04.223Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656451266f0ea896a7d033f4"
+  },
+  "action": "removeFav",
+  "message": "Товар 650044a404f1344086586df8 удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:19:50.489Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656451276f0ea896a7d033f5"
+  },
+  "action": "removeFav",
+  "message": "Товар 650044a404f1344086586df7 удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:19:51.537Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656451286f0ea896a7d033f6"
+  },
+  "action": "removeFav",
+  "message": "Товар 650044a404f1344086586dfb удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:19:52.564Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564512d6f0ea896a7d033f7"
+  },
+  "action": "addFav",
+  "message": "Товар [object Object] добавлен в избранное",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:19:57.998Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656451306f0ea896a7d033f8"
+  },
+  "action": "removeFav",
+  "message": "Товар 650044a404f1344086586df8 удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:20:00.556Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656451326f0ea896a7d033f9"
+  },
+  "action": "addFav",
+  "message": "Товар [object Object] добавлен в избранное",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:20:02.692Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656451346f0ea896a7d033fa"
+  },
+  "action": "addFav",
+  "message": "Товар [object Object] добавлен в избранное",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:20:04.548Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656451396f0ea896a7d033fb"
+  },
+  "action": "addFav",
+  "message": "Товар [object Object] добавлен в избранное",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:20:09.317Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564513a6f0ea896a7d033fc"
+  },
+  "action": "removeFav",
+  "message": "Товар 650044a404f1344086586dfb удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:20:10.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564513c6f0ea896a7d033fd"
+  },
+  "action": "addFav",
+  "message": "Товар [object Object] добавлен в избранное",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:20:12.686Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656451446f0ea896a7d033fe"
+  },
+  "action": "addFav",
+  "message": "Товар [object Object] добавлен в избранное",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:20:20.763Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564516a6f0ea896a7d033ff"
+  },
+  "action": "removeFav",
+  "message": "Товар 650044a404f1344086586df7 удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:20:58.248Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564516a6f0ea896a7d03400"
+  },
+  "action": "removeFav",
+  "message": "Товар 650044a404f1344086586dfa удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:20:58.886Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564516b6f0ea896a7d03401"
+  },
+  "action": "removeFav",
+  "message": "Товар 650044a404f1344086586dfc удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:20:59.652Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564516c6f0ea896a7d03402"
+  },
+  "action": "removeFav",
+  "message": "Товар 650044a404f1344086586e00 удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:21:00.414Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564518f6f0ea896a7d03403"
+  },
+  "action": "addFav",
+  "message": "Товар 650044a404f1344086586df7 добавлен в избранное",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:21:35.544Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656451916f0ea896a7d03404"
+  },
+  "action": "addFav",
+  "message": "Товар 650044a404f1344086586dfb добавлен в избранное",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:21:37.454Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656451926f0ea896a7d03405"
+  },
+  "action": "addFav",
+  "message": "Товар 650044a404f1344086586dfa добавлен в избранное",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:21:38.897Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656451936f0ea896a7d03406"
+  },
+  "action": "removeFav",
+  "message": "Товар 650044a404f1344086586dfa удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:21:39.894Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656451956f0ea896a7d03407"
+  },
+  "action": "removeFav",
+  "message": "Товар 650044a404f1344086586df7 удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:21:41.251Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656451966f0ea896a7d03408"
+  },
+  "action": "removeFav",
+  "message": "Товар 650044a404f1344086586dfb удален из избранного",
+  "userId": "64f0733088e42d1bfd471ad2",
+  "entryTime": {
+    "$date": "2023-11-27T08:21:42.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564525d6f0ea896a7d03409"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:25:01.020Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656452606f0ea896a7d0340a"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:25:04.706Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656452656f0ea896a7d0340b"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:25:09.840Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656452686f0ea896a7d0340c"
+  },
+  "action": "checkOrders",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "orders": [],
+  "entryTime": {
+    "$date": "2023-11-27T08:25:12.211Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656452686f0ea896a7d0340d"
+  },
+  "action": "checkOrders",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "orders": [
+    {
+      "_id": "652cdfd6e558445bfaab928f",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586dff",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T07:01:41.680Z",
+      "totalprice": 277,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce002e558445bfaab9290",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:02:25.662Z",
+      "totalprice": 999.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce0d3e558445bfaab9291",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e02",
+          "category": "электроника",
+          "quantity": 3,
+          "price": 599
+        }
+      ],
+      "timestamp": "2023-10-16T07:05:54.892Z",
+      "totalprice": 1797,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652ce386e558445bfaab9292",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        },
+        {
+          "id": "650044a404f1344086586e03",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "timestamp": "2023-10-16T07:17:26.320Z",
+      "totalprice": 1108.99,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d0b01e558445bfaab9293",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df9",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 15.99
+        },
+        {
+          "id": "650044a404f1344086586e04",
+          "category": "женская одежда",
+          "quantity": 2,
+          "price": 56.99
+        }
+      ],
+      "timestamp": "2023-10-16T10:05:53.063Z",
+      "totalprice": 145.96,
+      "status": "В обработке"
+    },
+    {
+      "_id": "652d1c29e558445bfaab9294",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df7",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 22.3
+        },
+        {
+          "id": "650044a404f1344086586dfb",
+          "category": "ювелирные изделия",
+          "quantity": 1,
+          "price": 168
+        },
+        {
+          "id": "650044a404f1344086586e00",
+          "category": "электроника",
+          "quantity": 1,
+          "price": 109
+        }
+      ],
+      "timestamp": "2023-10-16T11:19:05.308Z",
+      "totalprice": 299.3,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df622f4a9dd6f2fa77f99",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 2,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:21:38.226Z",
+      "totalprice": 219.9,
+      "status": "В обработке"
+    },
+    {
+      "_id": "654df9b1f4a9dd6f2fa77f9a",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 1,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-10T09:36:48.578Z",
+      "totalprice": 109.95,
+      "status": "В обработке"
+    },
+    {
+      "_id": "65644e5eedc9418c785cab2b",
+      "customer": "64f0733088e42d1bfd471ad2",
+      "items": [
+        {
+          "id": "650044a404f1344086586df6",
+          "category": "мужская одежда",
+          "quantity": 4,
+          "price": 109.95
+        }
+      ],
+      "timestamp": "2023-11-27T08:07:57.554Z",
+      "totalprice": 439.8,
+      "status": "В обработке"
+    }
+  ],
+  "entryTime": {
+    "$date": "2023-11-27T08:25:12.322Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564526a6f0ea896a7d0340e"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:25:14.830Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564526f6f0ea896a7d0340f"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:25:19.831Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656452736f0ea896a7d03410"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:25:23.015Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656452766f0ea896a7d03411"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:25:26.194Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656452796f0ea896a7d03412"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:25:29.248Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564527c6f0ea896a7d03413"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:25:32.327Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564527f6f0ea896a7d03414"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:25:35.380Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656452826f0ea896a7d03415"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:25:38.443Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656452856f0ea896a7d03416"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:25:41.493Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656452946f0ea896a7d03417"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:25:56.511Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656452ab6f0ea896a7d03418"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:26:19.616Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656452bd6f0ea896a7d03419"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:26:37.543Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656453026f0ea896a7d0341a"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:27:46.717Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656453166f0ea896a7d0341b"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:28:06.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656453436f0ea896a7d0341c"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:28:51.197Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656453d46f0ea896a7d0341d"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:31:16.693Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656453d86f0ea896a7d0341e"
+  },
+  "action": "checkOut",
+  "message": "Заказ успешно размещен",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19424.11"
+  },
+  "entryTime": {
+    "$date": "2023-11-27T08:31:20.533Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656453ec6f0ea896a7d03420"
+  },
+  "action": "login",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19204.21"
+  },
+  "message": "Успешный вход",
+  "entryTime": {
+    "$date": "2023-11-27T08:31:40.316Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656453f06f0ea896a7d03421"
+  },
+  "action": "addCoins",
+  "message": "Баланс пополнен",
+  "user": {
+    "_id": "64f0733088e42d1bfd471ad2",
+    "address": {
+      "geolocation": {
+        "lat": null,
+        "long": null
+      },
+      "city": "XXX",
+      "street": "string",
+      "number": 51,
+      "zipcode": "5151"
+    },
+    "id": 2,
+    "email": "123123@123.123",
+    "username": "123123",
+    "password": "111111",
+    "avatar": "",
+    "name": {
+      "firstname": "string",
+      "lastname": "dfsf323rgbnesrgd",
+      "patronymic": "string"
+    },
+    "phone": "string",
+    "__v": 3,
+    "role": "admin",
+    "birthdate": "1611551",
+    "fav": [],
+    "credit": "19204.21"
+  },
+  "entryTime": {
+    "$date": "2023-11-27T08:31:44.803Z"
+  }
+}]
